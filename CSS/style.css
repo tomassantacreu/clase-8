@@ -1,0 +1,141 @@
+body {
+    background-color: rgb(253, 139, 158);
+}
+
+#Texto1 {
+    width: 70%;
+    float: left;
+    font-family: Verdana;
+    font-size: 100%;
+    text-align: justify;
+    margin: 15px;
+}
+
+#p_texto1 {
+    text-align: center;
+    margin-bottom: 2em;
+    color: white;
+}
+
+#imagen1 {
+    width: 20%;
+    float: right;
+}
+
+#separacion {
+    clear: both;
+}
+
+#texto2 {
+    width: 55%;
+    float: right;
+    font-size: 150%;
+    text-align: justify;
+    margin: 15px;
+}
+
+#p_texto2 {
+    text-align: center;
+    font-size: 90%;
+    color: white;
+}
+
+#imagen2 {
+    width: 100%;
+
+}
+
+.imagenes {
+    width: 100%;
+    height: 100%;
+}
+
+.imagenes_2 {
+    width: 40%;
+    height: 40%;
+
+}
+
+nav {
+    display: flex;
+    background-color: pink;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.nav_item {
+    list-style: none;
+    margin: 10px;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.nav_item:hover {
+    background-color: rgb(255, 0, 85);
+    transition-duration: 600ms;
+}
+
+.nav_item>a {
+    text-decoration: none;
+    color: white;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+
+.logo {
+    margin-left: 15px;
+}
+
+.titles {
+    color: rgb(255, 0, 85);
+}
+
+footer {
+    background-color: pink;
+    color: white;
+    margin: 8px 2px;
+    padding: 40px;
+}
+
+i {
+    font-size: 400%;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+form {
+    background-color: rgb(255, 0, 85);
+    ;
+    display: inline-block;
+    padding: 20px;
+    margin: 15px 500px;
+    color: white;
+}
+
+#send_button {
+    width: 280px;
+    height: 50px;
+    position: relative;
+    top: 0;
+    left: 11px;
+    margin: 15px 0px;
+    border: 5px solid pink;
+    border-radius: 5px;
+    background-color: pink;
+    color: rgb(234, 0, 255);
+}
+
+.form_item {
+    width: 300px;
+    height: 35px;
+    margin: 12px 0px;
+}
+
+p {
+    color: white;
+}
